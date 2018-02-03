@@ -1,26 +1,40 @@
-import React, { Component } from 'react';
-import { Alert } from 'react-bootstrap';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Navbar, Nav, NavItem, Grid, Row, Col } from 'react-bootstrap';
+import Header from './components/Header';
+import Slider from './components/Slider';
+import Quote from './components/Quote';
+import Products from './view/Products';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Alert bsStyle="warning">
-          <strong>Holy guacamole!</strong> Best check yo self, you're not looking too
-          good.
-        </Alert>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div>
+    <header className="clearfix">
+      <Navbar>
+        <Navbar.Header>
+          <Navbar.Brand>
+            Maple Garment
+          </Navbar.Brand>
+        </Navbar.Header>
+        <Nav>
+          <NavItem eventKey={1} href="#">
+            Link
+          </NavItem>
+          <NavItem eventKey={2} href="#">
+            Link
+          </NavItem>
+        </Nav>
+      </Navbar>
+    </header>
+    <Slider />
+    <Grid>
+      <Row>
+        <Col xs={12} md={8}>
+          <Quote />
+        </Col>
+      </Row>
+    </Grid>
+    <Products />
+  </div>
+);
+
 
 export default App;

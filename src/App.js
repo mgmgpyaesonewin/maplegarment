@@ -2,14 +2,11 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Link,
 } from 'react-router-dom';
-import { Navbar, Nav, NavItem, Grid, Row, Col } from 'react-bootstrap';
-import Header from './components/Header';
-import Slider from './components/Slider';
-import Quote from './components/Quote';
-import ContacForm from './components/ContactForm';
-import Products from './view/Products';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import ContactForm from './components/ContactForm';
+import Home from './view/Home';
 
 const App = () => (
   <Router>
@@ -26,28 +23,17 @@ const App = () => (
               <Link to="/">Home</Link>
             </NavItem>
             <NavItem>
-              <Link to="/profile">About</Link>
+              <Link to="/profile">Profile</Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/contact">About</Link>
             </NavItem>
           </Nav>
         </Navbar>
-        <Route path="/profile" component={ContacForm} />
       </header>
-      <Slider />
-      <Grid>
-        <Row>
-          <Col xs={12} md={8}>
-            <Quote />
-          </Col>
-        </Row>
-      </Grid>
-      <Products />
-      <Grid>
-        <Row>
-          <Col xs={12} md={8}>
-            {/* <ContacForm /> */}
-          </Col>
-        </Row>
-      </Grid>
+      <Route exact path="/" component={Home} />
+      <Route path="/contact" component={ContactForm} />
+      <Route path="/contact" component={ContactForm} />
     </div>
   </Router>
 );

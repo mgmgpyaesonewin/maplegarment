@@ -7,32 +7,47 @@ import {
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import ContactForm from './components/ContactForm';
 import Home from './view/Home';
+import Profile from './view/Profile';
+
+const NavbarStyle = {
+  marginBottom: 0,
+  background: '#fff',
+  border: 'none',
+};
+
+const NavStyle = {
+  marginRight: '10px',
+};
+
 
 const App = () => (
   <Router>
     <div>
       <header className="clearfix">
-        <Navbar>
+        <Navbar style={NavbarStyle} >
           <Navbar.Header>
             <Navbar.Brand>
               Maple Garment
             </Navbar.Brand>
+            <Navbar.Toggle />
           </Navbar.Header>
-          <Nav>
-            <NavItem>
-              <Link to="/">Home</Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/profile">Profile</Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/contact">About</Link>
-            </NavItem>
-          </Nav>
+          <Navbar.Collapse>
+            <Nav pullRight style={NavStyle}>
+              <NavItem>
+                <Link to="/">Home</Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/profile">Profile</Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/contact">About</Link>
+              </NavItem>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
       </header>
       <Route exact path="/" component={Home} />
-      <Route path="/contact" component={ContactForm} />
+      <Route path="/profile" component={Profile} />
       <Route path="/contact" component={ContactForm} />
     </div>
   </Router>

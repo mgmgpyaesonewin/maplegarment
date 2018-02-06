@@ -152,7 +152,7 @@ const Timeline = () => (
               <br />
             </div>
             <div className="timeline-body">
-              <p>Our mission is to pursue customer satisfaction by producing best quality garments with great efficiency; to become internationally recognized garment factory that complies with international factory audit standards and regulations, and to remodel our service from <b>CMP</b> basis to <b>FOB</b>. </p>
+              <p>We will build today to open the way for tomorrow. Our aim is to create shared success and prosperity for our clients and for our own business. The happiness and well-being of our employees is also a central priority. We enjoy making a contribution to our community in the best way we can.</p>
             </div>
           </div>
         </li>
@@ -163,7 +163,7 @@ const Timeline = () => (
               <h4 className="timeline-title">Vision</h4><br />
             </div>
             <div className="timeline-body">
-              <p>Maple will produce most reliable and ethical products. We will provide employment opportunities promoting and enhancing supporting industries and will lead for brand building with high reputation.</p>
+              <p>To be an internationally recognized garment factory aligned to buyers{'\''} expectations for compliance.To be the best garment manufacturer, with the highest productivity in Myanmar.To be regarded as <b>{'"'}the number 1 preferred place to work{'"'}</b> in Myanmar.</p>
             </div>
           </div>
         </li>
@@ -176,11 +176,9 @@ const Timeline = () => (
             <div className="timeline-body">
               <br />
               <ul>
-                <li>Development</li>
-                <li>Recognition</li>
-                <li>Enjoyment</li>
-                <li>Ambition</li>
-                <li>Mutual Trust</li>
+                <li>Number of Employees: 1000</li>
+                <li>Production of 2017: ~1 million</li>
+                <li>Lead Time: 45 days</li>
               </ul>
             </div>
           </div>

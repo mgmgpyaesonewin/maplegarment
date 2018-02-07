@@ -20,8 +20,8 @@ const CopyrightSection = () => (
       <Row>
         <Col md={7}>
           <Copyright>
-            Copyright © 2014. All Rights Reserved.Design and Developed by
-            <a href="http://www.mgmgpyaesonewin.me"> Pyae Sone</a>
+            Copyright © 2014. All Rights Reserved.  Design and Developed by
+            <a href="http://www.mgmgpyaesonewin.me"> Maple</a>
           </Copyright>
         </Col>
       </Row>

@@ -29,42 +29,40 @@ class ContactForm extends React.Component {
       <form>
         <FormGroup
           controlId="formBasicText"
-          validationState={this.getValidationState()}
         >
           <ControlLabel>Company Name</ControlLabel>
           <FormControl
             type="text"
             value={this.state.value}
-            placeholder="Enter text"
+            placeholder="Please enter your company name"
             onChange={this.handleChange}
           />
           <FormControl.Feedback />
-          <HelpBlock>Validation is based on string length.</HelpBlock>
+          <br />
           <ControlLabel>Contact person</ControlLabel>
           <FormControl
             type="text"
-            placeholder="Enter text"
+            placeholder="Please enter your name"
           />
-          <HelpBlock>Validation is based on string length.</HelpBlock>
+          <br />
           <ControlLabel>Email</ControlLabel>
           <FormControl
             type="text"
-            placeholder="Enter text"
+            placeholder="Please enter your email name"
           />
-          <HelpBlock>Validation is based on string length.</HelpBlock>
+          <br />
           <ControlLabel>Phone Number</ControlLabel>
           <FormControl
             type="text"
-            placeholder="Enter text"
+            placeholder="Please enter your phone number"
           />
-          <HelpBlock>Validation is based on string length.</HelpBlock>
+          <br />
           <FormGroup controlId="formControlsTextarea">
-            <ControlLabel>Textarea</ControlLabel>
-            <FormControl componentClass="textarea" placeholder="textarea" />
+            <ControlLabel>Message</ControlLabel>
+            <FormControl componentClass="textarea" placeholder="Plase drop a feedback" />
           </FormGroup>
-          <HelpBlock>Validation is based on string length.</HelpBlock>
         </FormGroup>
-        <Button bsStyle="primary">Primary</Button>
+        <Button bsStyle="danger">Submit</Button>
       </form>
     );
   }

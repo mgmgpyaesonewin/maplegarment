@@ -48,7 +48,6 @@ const Quote = () => (
             woven outer wears. With over 20 years of experiences, we
             guarantee to provide professional and turnkey services in a
             sustainable way.
-            <cite>Somebody famous</cite>
           </Blockquote>
         </Col>
       </Row>

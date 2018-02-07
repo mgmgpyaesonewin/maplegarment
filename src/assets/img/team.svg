@@ -1,0 +1,26 @@
+<svg width="1280" height="960" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="962" width="1282" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="478.313723" rx="479.515519" id="svg_1" cy="477.667087" cx="633.021041" stroke-width="0" stroke="#000" fill="#e53935"/>
+  <ellipse ry="416.023021" rx="416.023021" id="svg_4" cy="543.903515" cx="630.999489" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#f44336"/>
+  <ellipse ry="335.018509" rx="335.018509" id="svg_5" cy="620.907801" cx="633.999666" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ff5252"/>
+  <ellipse ry="263.014544" rx="263.014544" id="svg_6" cy="692.91177" cx="631.999567" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ef5350"/>
+  <ellipse ry="206.051403" rx="204.011291" id="svg_9" cy="747.874797" cx="630.999492" stroke-width="0" stroke="#000" fill="#f44336"/>
+  <ellipse ry="157.161457" rx="155.00856" id="svg_10" cy="800.76497" cx="631.999572" stroke-width="0" stroke="#000" fill="#e53935"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_11" y="79.877857" x="556.995415" stroke-width="0" stroke="#000" fill="#ffffff">OPERATORS</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_12" y="209.885044" x="574.99641" stroke-width="0" stroke="#000" fill="#ffffff">LEADERS</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_13" y="371.894001" x="548.994972" stroke-width="0" stroke="#000" fill="#ffffff">SUPERVISORS</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_14" y="501.901184" x="558.995525" stroke-width="0" stroke="#000" fill="#ffffff">MANAGERS</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_15" y="611.907276" x="554.995304" stroke-width="0" stroke="#000" fill="#ffffff">DIRECTORS</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_16" y="797.917542" x="556.995415" stroke-width="0" stroke="#000" fill="#ffffff">MANAGING</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_17" y="829.919312" x="562.995747" stroke-width="0" stroke="#000" fill="#ffffff">DIRECTOR</text>
+ </g>
+</svg>

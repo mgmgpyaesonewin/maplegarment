@@ -9,6 +9,7 @@ import Styled from 'styled-components';
 import ContactForm from './components/ContactForm';
 import Home from './view/Home';
 import Profile from './view/Profile';
+import Logo from './assets/img/logo/logo.jpg';
 
 const NavbarStyle = {
   marginBottom: 0,
@@ -21,7 +22,7 @@ const NavStyle = {
 };
 
 const NavbarBrand = Styled(Navbar.Brand)`
-  height: 60px;
+  height: 70px;
   &:hover {
     background: #ff432e;
   }
@@ -35,7 +36,16 @@ const NavbarItem = Styled(NavItem)`
   }
 `;
 
-const NavbarCollapse = Styled()
+const A = Styled(Link)`
+  color: #6b6b6b;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 10px;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+`;
 
 
 const App = () => (
@@ -45,20 +55,20 @@ const App = () => (
         <Navbar style={NavbarStyle} >
           <Navbar.Header>
             <NavbarBrand>
-              Maple
+              <img alt="maple" src={Logo} />
             </NavbarBrand>
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight style={NavStyle}>
               <NavbarItem>
-                <Link to="/">Home</Link>
+                <A to="/">Home</A>
               </NavbarItem>
               <NavbarItem>
-                <Link to="/profile">Profile</Link>
+                <A to="/profile">Profile</A>
               </NavbarItem>
               <NavbarItem>
-                <Link to="/contact">About</Link>
+                <A to="/contact">About</A>
               </NavbarItem>
             </Nav>
           </Navbar.Collapse>

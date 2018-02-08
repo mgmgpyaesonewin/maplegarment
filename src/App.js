@@ -6,9 +6,11 @@ import {
 } from 'react-router-dom';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import Styled from 'styled-components';
-import ContactForm from './components/ContactForm';
 import Home from './view/Home';
 import Profile from './view/Profile';
+import Csr from './view/Csr';
+import ProductsView from './view/ProductsView';
+import About from './view/About';
 import Logo from './assets/img/logo/logo.jpg';
 
 const NavbarStyle = {
@@ -68,6 +70,12 @@ const App = () => (
                 <A to="/profile">Profile</A>
               </NavbarItem>
               <NavbarItem>
+                <A to="/product">Products</A>
+              </NavbarItem>
+              <NavbarItem>
+                <A to="/csr">CSR</A>
+              </NavbarItem>
+              <NavbarItem>
                 <A to="/contact">About</A>
               </NavbarItem>
             </Nav>
@@ -76,7 +84,9 @@ const App = () => (
       </header>
       <Route exact path="/" component={Home} />
       <Route path="/profile" component={Profile} />
-      <Route path="/contact" component={ContactForm} />
+      <Route path="/product" component={ProductsView} />
+      <Route path="/csr" component={Csr} />
+      <Route path="/contact" component={About} />
     </div>
   </Router>
 );

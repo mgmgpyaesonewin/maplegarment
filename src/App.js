@@ -70,9 +70,6 @@ const App = () => (
                 <A to="/profile">Profile</A>
               </NavbarItem>
               <NavbarItem>
-                <A to="/product">Products</A>
-              </NavbarItem>
-              <NavbarItem>
                 <A to="/csr">CSR</A>
               </NavbarItem>
               <NavbarItem>

@@ -49,6 +49,13 @@ const A = Styled(Link)`
   }
 `;
 
+const Span = Styled.span`
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 25px;
+}
+`;
+
 
 const App = () => (
   <Router>
@@ -57,7 +64,8 @@ const App = () => (
         <Navbar style={NavbarStyle} >
           <Navbar.Header>
             <NavbarBrand>
-              <img alt="maple" src={Logo} />
+              <a className="logo pull-left" href="#"><img alt="maple" src={Logo} /></a>
+              <Span className="name pull-left">MAPLE</Span>
             </NavbarBrand>
             <Navbar.Toggle />
           </Navbar.Header>
